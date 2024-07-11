@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Web Profesional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="bg-black text-white font-sans">
+    <header class="bg-lime-500 text-black">
+        <div class="container mx-auto flex justify-between items-center py-4">
+            <div class="text-xl font-bold">DISENO WEB PROFESIONAL</div>
+            <nav class="space-x-8">
+                <a href="#" class="hover:text-lime-300">HOME</a>
+                <a href="#" class="hover:text-lime-300">APLICACIONES</a>
+                <a href="#" class="hover:text-lime-300">TUTORIALES</a>
+                <a href="#" class="hover:text-lime-300">CONTACTO</a>
+            </nav>
+            <a href="#" class="bg-black text-lime-300 border-2 border-lime-300 px-4 py-2 rounded">RESERVA TU CURSO</a>
+        </div>
+    </header>
+
+    <section class="bg-black text-white py-20">
+        <div class="container mx-auto grid grid-cols-2 gap-8">
+            <div class="space-y-4">
+                <h1 class="text-5xl font-bold leading-tight">DISENO Y DESARROLLO WEB</h1>
+                <h2 class="text-4xl font-bold text-lime-300">LENGUAJE DE ETIQUETAS HTML Y CSS.</h2>
+                <p class="text-gray-400">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño.</p>
+                <a href="#" class="bg-lime-300 text-black px-4 py-2 rounded inline-block">Explora mas Informacion</a>
+            </div>
+            <div class="flex justify-center items-center">
+                <img src="image/robot1.png" alt="" class="rounded-lg border-4 border-lime-300">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-blue-900 text-white py-10">
+        <div class="container mx-auto text-center space-y-4">
+            <h2 class="text-3xl font-bold">USO DE TABLAS EN HTML</h2>
+            <div class="grid grid-cols-3 gap-4 text-lime-300 text-2xl font-bold">
+                <div class="bg-black py-4">24 <span class="block text-lg">Paginas</span></div>
+                <div class="bg-black py-4">12 <span class="block text-lg">HTML</span></div>
+                <div class="bg-black py-4">6 <span class="block text-lg">CSS</span></div>
+            </div>
+            <a href="#" class="bg-lime-300 text-black px-4 py-2 rounded inline-block">Ver Aplicaciones</a>
+        </div>
+    </section>
+
+    <section class="py-20">
+        <div class="container mx-auto text-center space-y-4">
+            <h2 class="text-5xl font-bold">CREANDO GRID</h2>
+            <h2 class="text-5xl font-bold text-lime-300">PARA LAS IMAGENES</h2>
+            <p class="text-gray-400">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido.</p>
+            <a href="#" class="bg-lime-300 text-black px-6 py-3 rounded-full inline-block mt-4">Ver Tutoriales</a>
+            <div class="grid grid-cols-3 gap-4 mt-8">
+                <img src="image/robot4.png" alt="Robot 1" class="grid-image">
+                <img src="image/robot2.png" alt="Robot 2" class="grid-image">
+                <img src="image/robot5.png" alt="Robot 3" class="grid-image">
+                <img src="image/robot3.png" alt="Robot 4" class="grid-image">
+                <img src="image/robot6.png" alt="Robot 5" class="grid-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-lime-500 text-black py-20">
+        <div class="container mx-auto grid grid-cols-2 gap-8">
+            <div class="space-y-4 flex items-center">
+                <img src="image/login.png" alt="Skeleton working on a computer" class="rounded-full">
+                <div>
+                    <h2 class="text-2xl font-bold">Turn your ideas into reality.</h2>
+                    <p>Start for free and get attractive offers from the community</p>
+                </div>
+            </div>
+            <div class="bg-white text-black p-8 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-bold mb-4">Ingresa tus Datos</h2>
+                <p class="mb-4">Nos pondremos en contacto contigo</p>
+                <button class="bg-white border border-gray-400 text-gray-700 py-2 px-4 w-full rounded mb-4">
+                    <i class="fab fa-google"></i> Rellena tus datos con Google
+                </button>
+                <form class="space-y-4">
+                    <div>
+                        <label class="block mb-1">Email</label>
+                        <input type="email" class="w-full border border-gray-400 px-3 py-2 rounded" placeholder="mail@abc.com">
+                    </div>
+                    <div>
+                        <label class="block mb-1">Nombre y Apellidos</label>
+                        <input type="text" class="w-full border border-gray-400 px-3 py-2 rounded" placeholder="Nombre y Apellidos">
+                    </div>
+                    <div>
+                        <label class="flex items-center">
+                            <input type="checkbox" class="mr-2"> Acepto envío de promociones
+                        </label>
+                    </div>
+                    <button type="submit" class="bg-lime-300 text-black px-4 py-2 rounded w-full">Enviar Datos</button>
+                </form>
+                <p class="mt-4 text-center">Completar tus datos con: <a href="#" class="text-lime-500">cuenta de facebook</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue-900 text-white py-10">
+        <div class="container mx-auto grid grid-cols-4 gap-8">
+            <div class="space-y-4">
+                <h2 class="text-lg font-bold">MAPA DE SITIO</h2>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-lime-300">Inicio</a></li>
+                    <li><a href="#" class="hover:text-lime-300">Aplicaciones</a></li>
+                    <li><a href="#" class="hover:text-lime-300">Tutoriales</a></li>
+                    <li><a href="#" class="hover:text-lime-300">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="space-y-4">
+                <h2 class="text-lg font-bold">EVALUACIÓN PERMANENTE 04</h2>
+                <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad enim a commodo ligula eget dolor. A</p>
+            </div>
+            <div class="space-y-4">
+                <h2 class="text-lg font-bold">SUSCRIBETE A NUESTRO CURSO</h2>
+                <p class="text-gray-400">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido.</p>
+                <a href="#" class="bg-lime-300 text-black px-4 py-2 rounded inline-block">ENVIAR DATOS</a>
+            </div>
+            <div class="space-y-4">
+                <h2 class="text-lg font-bold">SIGUENOS</h2>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-lime-300"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="hover:text-lime-300"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="hover:text-lime-300"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="hover:text-lime-300"><i class="fab fa-google"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+``` &#8203;:citation[oaicite:0]{index=0}&#8203;
